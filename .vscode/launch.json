@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {   
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\server.js",
+            "env": {
+                "databaseURL":"mongodb+srv://muthuraj:hComb$21@cluster0.bc2d5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+                "password":"hComb$21",
+                "JWT_SECRET":"yua@1*07aga",
+                "JWT_EXPIRES_IN":"21000",
+                "JWT_REFRESH_TOKEN_SECRET":"ayu@5*47tce",
+                "JWT_REFRESH_TOKEN_EXPIRE_IN":"1200"
+              }
+        }
+    ]
+}
